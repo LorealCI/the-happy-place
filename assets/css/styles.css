@@ -4,7 +4,8 @@
 
 /*CSS Variables*/
 :root {
-    --primary-color: #f3c301; /*yellow*/
+    --primary-color: #f7c815; /*yellow*/
+    --secondary-color: #058240; /*orange*/
     --primary-font: 'dosis', sans-serif; 
     --secondary-font: 'nunito', sans-serif;
 }
@@ -17,6 +18,7 @@
 nav {
     background-color: var(--primary-color);
 }
+
 /*header*/
 h1, h2, h3 {
     font-family: var(--secondary-font);
@@ -38,17 +40,28 @@ h1, h2, h3 {
     text-align: end;
     padding-top: 40px;
     min-height: 200px;
+    color: var(--primary-color);
 }
 /*main*/
- main {
-    background-color: antiquewhite;
- }
-
 body {
     font-family: var(--primary-font);
 }
 
 /*footer*/
- footer {
-    background-color: #ffffff;
+ #contact {
+    background-color: var(--primary-color);
+    padding-bottom: 3rem;
+ }
+
+ #contact i {
+    font-size: 1.2rem;
+    margin-right: 14px;
+    color: var(--secondary-color)
+ }
+
+ #contact .social-media i {
+    font-size: 1.8rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
  }

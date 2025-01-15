@@ -21,37 +21,47 @@
   <body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resources</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Support</a>
-              </li>
-              <li class="nav-item">
-                <a class="btn btn-primary ms-lg-3"  a href="#">Contact us</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">The<sup>Happy</sup>Place</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary ms-lg-3" a href="#">Contact us</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!--header-->
     <header>
-        <section id="hero-image">
-            <div id="cover-text">
-                <h1>The<sup>Happy</sup>Place</h1>
-                <h2>Happy starts here</h2>
-            </div>
-        </section>
+      <section id="hero-image">
+        <div id="cover-text">
+          <h1>The<sup>Happy</sup>Place</h1>
+          <h2>Happy starts here</h2>
+        </div>
+      </section>
     </header>
     <!--main element to hold all main content on the homepage-->
     <main>
@@ -90,85 +100,104 @@
           </div>
         </div>
       </section>
+
       <section class="container section">
-      <div class="col-12 col-md-6 col-xl-3">
-        <div class="card">
-            <img src="assets/images/sad-teenager.webp" class="card-img-top" alt="a sad teenager wth hands pointing at her">
+        <div class="col-lg-6 mb-4">
+          <div class="card">
+            <img
+              src="assets/images/sad-teenager.webp"
+              class="card-img-top"
+              alt="a sad teenager wth hands pointing at her"
+            />
             <div class="card-body">
               <h5 class="card-title">I am a young person</h5>
-              <p class="card-text">Click here for more advice on your mental health</p>
+              <p class="card-text">
+                Click here for more advice on your mental health
+              </p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-      </div>  
+        </div>
 
-      <div class="col-12 col-md-6 col-xl-3">
-        <div class="card">
-            <img src="assets/images/parent-hugging-teen.webp" class="card-img-top" alt="a mom hugging her child">
+        <div class="col-lg-6 mb-4">
+          <div class="card">
+            <img
+              src="assets/images/parent-hugging-teen.webp"
+              class="card-img-top"
+              alt="a mom hugging her child"
+            />
             <div class="card-body">
               <h5 class="card-title">I am a parent / guardian</h5>
-              <p class="card-text">Click here to get more information on how you can help your young person</p>
+              <p class="card-text">
+                Click here to get more information on how you can help your
+                young person
+              </p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-      </div>
+        </div>
       </section>
     </main>
     <!--footer-->
-    <footer class="mt-auto">
+    <footer id="contact" class="mt-auto">
       <div class="container section">
         <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <h2 class="display-6">Contact Us</h2>
+          <div class="col-12 text-center">
+            <h2 class="display-6">Contact Us</h2>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <h3>Contact Info</h3>
+            <p><i class="fa-solid fa-phone"></i> Number: 0123456789</p>
+            <p>
+              <i class="fa-solid fa-at"></i> Email: thehappyplace@project.co
+            </p>
+            <address>
+              <strong
+                ><i class="fa-solid fa-location-dot"></i> The Happy
+                Place</strong>
+              <br />
+              54 Happy Street <br />
+              Smile City <br />
+              A12 B34
+            </address>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <h3>Check us out!</h3>
+            <div class="social-media my-4">
+              <a
+                href="https://www.facebook.com/"
+                class="social-link"
+                target="_blank"
+                aria-label="Visit our facebook page (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://x.com/"
+                class="social-link"
+                target="_blank"
+                aria-label="Visit our X feed (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/"
+                class="social-link"
+                target="_blank"
+                aria-label="Visit our instagram page (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/"
+                class="social-link"
+                target="_blank"
+                aria-label="Visit our tiktok page (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
             </div>
-            <div class="col-12 col-md-6 col-xl-4">
-                <h3>Contact Info</h3>
-                <p>Number: 0123456789</p>
-                <p>Email: thehappyplace@project.co</p>
-                <address>
-                    <strong>The Happy Place</strong> <br>
-                    54 Happy Street <br>
-                    Smile City <br>
-                    A12 B34
-                </address>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4">
-                <h3>Check us out!</h3>
-                <div class="social-links my-4">
-                    <a
-                      href="https://www.facebook.com/"
-                      class="social-link"
-                      target="_blank"
-                      aria-label="Visit our facebook page (opens in a new tab)"
-                      rel="noopener"
-                      ><i class="fa-brands fa-facebook"></i
-                    ></a>
-                    <a
-                      href="https://x.com/"
-                      class="social-link"
-                      target="_blank"
-                      aria-label="Visit our X feed (opens in a new tab)"
-                      rel="noopener"
-                      ><i class="fa-brands fa-x-twitter"></i
-                    ></a>
-                    <a
-                      href="https://www.instagram.com/"
-                      class="social-link"
-                      target="_blank"
-                      aria-label="Visit our instagram page (opens in a new tab)"
-                      rel="noopener"
-                      ><i class="fa-brands fa-instagram"></i
-                    ></a>
-                    <a
-                      href="https://www.tiktok.com/"
-                      class="social-link"
-                      target="_blank"
-                      aria-label="Visit our tiktok page (opens in a new tab)"
-                      rel="noopener"
-                      ><i class="fa-brands fa-tiktok"></i
-                    ></a>
-                </div>
-            </div>
+          </div>
         </div>
       </div>
     </footer>
