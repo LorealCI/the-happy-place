@@ -4,8 +4,8 @@
 
 /*CSS Variables*/
 :root {
-    --primary-color: #f7c815; /*yellow*/
-    --secondary-color: #058240; /*orange*/
+    --primary-color: #adcacb; /*lightblue*/
+    --secondary-color: #f7c815; /*yellow*/
     --primary-font: 'dosis', sans-serif; 
     --secondary-font: 'nunito', sans-serif;
 }
@@ -33,15 +33,17 @@ h1, h2, h3 {
 }
 
 #cover-text {
-    font-size: 180%;
+    font-size: 100%;
     position: absolute;
     bottom: 30px;
     width: 80%;
     text-align: end;
     padding-top: 40px;
     min-height: 200px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
+/*Button styles*/
+
 /*main*/
 body {
     font-family: var(--primary-font);
@@ -56,7 +58,6 @@ body {
  #contact i {
     font-size: 1.2rem;
     margin-right: 14px;
-    color: var(--secondary-color)
  }
 
  #contact .social-media i {
@@ -64,4 +65,30 @@ body {
     -webkit-transition: color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
+ }
+
+ #contact .facebook {
+    color: #00008b;
+ }
+ #contact .twitter {
+    color: #000000;
+ }
+ #contact .instagram {
+    color: #ff3b3f;
+ }
+ #contact .tiktok {
+    color: #000000;
+ }
+
+ #contact .facebook:hover {
+    color: #124ca2;
+ }
+ #contact .twitter:hover {
+    color: #363737;
+ }
+ #contact .instagram:hover {
+    color: #f7882f;
+ }
+ #contact .tiktok:hover {
+    color: #363737;
  }
