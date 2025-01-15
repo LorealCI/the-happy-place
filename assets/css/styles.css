@@ -1,6 +1,12 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
 /*CSS Variables*/
 :root {
-    --primary-color: #f3c301 /*yellow*/
+    --primary-color: #f3c301; /*yellow*/
+    --primary-font: 'dosis', sans-serif; 
+    --secondary-font: 'nunito', sans-serif;
 }
 
 /*global styles */
@@ -12,18 +18,19 @@ nav {
     background-color: var(--primary-color);
 }
 /*header*/
-header {
-    background-color: brown;
+h1, h2, h3 {
+    font-family: var(--secondary-font);
 }
 /*main*/
  main {
     background-color: antiquewhite;
  }
 
- .about {
-    text-align: center;
- }
-/*gooter*/
+body {
+    font-family: var(--primary-font);
+}
+
+/*footer*/
  footer {
-    background-color: blueviolet;
+    background-color: #ffffff;
  }
