@@ -1,5 +1,7 @@
 /*global styles */
-
+.section {
+    padding-top: 4rem;
+}
 
 body {
     background-color: aqua;
