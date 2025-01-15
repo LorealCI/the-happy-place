@@ -1,19 +1,29 @@
+/*CSS Variables*/
+:root {
+    --primary-color: #f3c301 /*yellow*/
+}
+
 /*global styles */
 .section {
     padding-top: 4rem;
 }
-
-body {
-    background-color: aqua;
+/*navbar*/
+nav {
+    background-color: var(--primary-color);
 }
-
+/*header*/
 header {
     background-color: brown;
 }
+/*main*/
  main {
     background-color: antiquewhite;
  }
 
+ .about {
+    text-align: center;
+ }
+/*gooter*/
  footer {
     background-color: blueviolet;
  }
