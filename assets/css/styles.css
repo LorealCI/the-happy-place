@@ -68,6 +68,11 @@ p span {
     color:#f88379;
     border: solid 3px #f88379 /*coral pink*/
 }
+
+.btn-custom-outline:hover {
+   color:#adcdcb;
+   border: solid 3px #adcdcb /*coral pink*/
+}
 /*footer*/
  #contact {
     background-color: var(--primary-color);
