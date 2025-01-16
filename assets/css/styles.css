@@ -4,8 +4,7 @@
 
 /*CSS Variables*/
 :root {
-    --primary-color: #adcacb; /*lightblue*/
-    --secondary-color: #f7c815; /*yellow*/
+    --primary-color: #adcdcb; /*lightblue*/
     --primary-font: 'dosis', sans-serif; 
     --secondary-font: 'nunito', sans-serif;
 }
@@ -40,15 +39,21 @@ h1, h2, h3 {
     text-align: end;
     padding-top: 40px;
     min-height: 200px;
-    color: var(--secondary-color);
+    color: #ffffff;
+    background-color: rgba(173, 202, 203, 0.5);
+
 }
-/*Button styles*/
 
 /*main*/
 body {
     font-family: var(--primary-font);
 }
 
+/*Button styles*/
+.btn-custom-outline {
+    color:#f88379;
+    border: solid 3px #f88379 /*coral pink*/
+}
 /*footer*/
  #contact {
     background-color: var(--primary-color);
