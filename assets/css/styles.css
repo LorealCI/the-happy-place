@@ -61,6 +61,7 @@ h1, h2, h3 {
 /*main*/
 body {
     font-family: var(--primary-font);
+    background-color: #f7e7ec;
 }
 
 #who-we-are {
@@ -76,6 +77,10 @@ body {
 
 p span {
    color: #f88379;
+}
+/*form styles*/
+.form-control {
+   border: solid 1px #000000;
 }
 /*Button styles*/
 .btn-custom-outline {
