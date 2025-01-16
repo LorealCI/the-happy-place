@@ -87,6 +87,14 @@ p span {
    color:#adcdcb;
    border: solid 3px #adcdcb /*coral pink*/
 }
+
+.contact-btn {
+   background-color:#ffffff;
+}
+
+.contact-btn:hover {
+   background-color:#f88379;
+}
 /*footer*/
  #contact {
     background-color: var(--primary-color);

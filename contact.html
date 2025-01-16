@@ -16,7 +16,7 @@
     />
     <!--Custom CSS-->
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>The Happy Place | Home</title>
+    <title>The Happy Place | Contact Us</title>
   </head>
   <body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
@@ -37,9 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="resources.html">Resources</a>
@@ -48,98 +46,66 @@
               <a class="nav-link" href="support.html">Support</a>
             </li>
             <li class="nav-item">
-              <a class="btn contact-btn ms-lg-3" a href="contact.html">Contact us</a>
+              <a
+                class="btn contact-btn ms-lg-3 active"
+                aria-current="page"
+                a
+                href="contact.html"
+                >Contact us</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!--header-->
-    <header>
-      <section id="hero-image">
-        <div id="cover-text">
-          <h1 class="display-1">The<sup>Happy</sup>Place</h1>
-          <h2 class="h4">Happy starts here</h2>
+    <header id="header" class="container section">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 text-center text-xl-start">
+          <h1 class="display-3">
+            <strong>Worried about your mental health?</strong>
+          </h1>
+          <p class="my-4">
+            If you or your young person is in a mental health crisis help is
+            available. Call our support line: 0123 456 789
+            This line is open 24/7 7 days a week.
+          </p>
+          <p>
+            If you have concerns for yourself or your young person reach out to
+            one of our expert volunteers regarding your mental health for help,
+            advice, information or even just to talk about your feelings. Fill
+            out the form below and one of our expert volunteers will reach out
+            to you.
+          </p>
         </div>
-      </section>
-    </header>
-    <!--main element to hold all main content on the homepage-->
-    <main>
-      <section class="container section">
-          <div class="col-12 text-center">
-            <h2 class="display-6"><strong>About Us</strong></h2>
-          </div>
-          <div class="row">
-          <div id="who-we-are" class="col-md-6">
-            <h3>Who we are</h3>
-            <p>
-              Here at The<sup>Happy</sup>Place we are an organisation that works with
-              children, young people and young adults who are struggling with
-              their mental health. We provide you with the tools needed to look
-              after you! We also aim to inform and empower parents/ guardians to
-              be the best support system they can be for the young person in
-              their lives.
-            </p>
-          </div>
-
-          <div id="how-we-help" class="col-md-6">
-            <h3>How we help</h3>
-            <p>
-              It takes a lot of courage to ask for help, but when a young person
-              does the support is just not there. There are thousands of young
-              people today who suffer with mental health both reported and
-              unreported and we are here to make that change! We offer a safe
-              space where young people can find advice, tips, information and
-              support to navigate through mental health challanges. We want to
-              break the stigma around mental health in order to build a stronger
-              generation that feels supported and understood.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="container section">
-        <div class="col-12 text-center">
-          <h2 class="display-6"><strong>We are here for you</strong></h2>
-          <p>Wherever you are,<span>whenever you need,</span> we are here to help.</p>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-                <div class="card">
-                  <img
-                    src="assets/images/sad-teenager.webp"
-                    class="card-img-top"
-                    alt="a sad teenager wth hands pointing at her"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">I am a young person</h5>
-                    <p class="card-text">
-                      Click here for more advice on your mental health...
-                    </p>
-                    <a href="support.html#young-person" class="btn btn-custom-outline">Learn more</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6">
-              <div class="card">
-                  <img
-                      src="assets/images/parent-hugging-teen.webp"
-                      class="card-img-top"
-                      alt="a mom hugging her child"
-                  />
-                  <div class="card-body">
-                      <h5 class="card-title">I am a parent / guardian</h5>
-                      <p class="card-text">
-                      Click here to get more information on how you can help your
-                      young person...
-                      </p>
-                      <a href="support.html#parent-support" class="btn btn-custom-outline">Learn more</a>
-                  </div>
-              </div>
-          </div>
       </div>
-      </section>
-    </main>
+    </header>
+    <!--main-->
+    <!--contact form-->
+    <form action="success.html" method="GET">
+        <div class="row">
+            <div class="col-12 col-lg-6 mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input class="form-control" id="name" name="name" type="text" required>
+            </div>
+            <div class="col-12 col-lg-6 mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" id="email" name="email" type="email" required>
+            </div>
+            <div class="col-12 col-lg-6 mb-3">
+                <label for="phone" class="form-label">Phone number</label>
+                <input class="form-control" id="phone" name="phone" type="number" required>
+            </div>
+            <div class="col-12 mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" rows="6" id="message" name="message"></textarea>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-custom-outline">Submit</button>
+    </form>
+</div>
+</div>
+</section>
     <!--footer-->
     <footer id="contact" class="mt-auto">
       <div class="container section">
@@ -156,7 +122,8 @@
             <address>
               <strong
                 ><i class="fa-solid fa-location-dot"></i> The Happy
-                Place</strong>
+                Place</strong
+              >
               <br />
               54 Happy Street <br />
               Smile City <br />
