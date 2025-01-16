@@ -27,8 +27,14 @@ h1, h2, h3 {
    padding-inline-start: 20%;
    padding-inline-end: 20%;
 }
-.carousel-item {
+.number1 {
    border: solid 3px #f7c815;
+}
+.number2 {
+   border: solid 3px #f88379;
+}
+.number3 {
+   border: solid 3px #adcdcb;
 }
 
 /*hero*/
