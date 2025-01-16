@@ -27,7 +27,7 @@ h1, h2, h3 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("../images/teens-laughing-hero.jpg") no-repeat center center/cover;
+    background: url("../images/teens-laughing-hero.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -49,6 +49,20 @@ body {
     font-family: var(--primary-font);
 }
 
+#who-we-are {
+   background-color: rgba(202, 50, 37, 0.5);
+   border: solid 2px #f88379;
+}
+
+#how-we-help {
+   background-color: rgba(240, 225, 0, 0.5);
+   border: solid 2px #f7c815;
+   border-radius: 5;
+}
+
+p span {
+   color: #f88379;
+}
 /*Button styles*/
 .btn-custom-outline {
     color:#f88379;
