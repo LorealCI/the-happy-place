@@ -107,6 +107,7 @@ For the footer i used the same background colour as the navigation bar to distin
 Using bootstrap allowed for a site that is responsive with the need for too many media queries. The media queries added helped impletment a page that is fully responsive according to modern standards.
 
 This has been a very valuable learning experience as i used Dev Tools in order to indentify and bugs revolving in the sites responsiveness. I have a much greater understanding in Bootstrap and how to adapt it using Dev Tools which will help me be better in future projects. 
+![alt text](<Untitled design (1).jpg>)
 
 ## Deployment 
 This GitHub project was created using the Code Insititue Template ensuring all necessary dependencies were included when opening within the designated workspace on VSCode.
