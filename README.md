@@ -106,3 +106,19 @@ For the footer i used the same background colour as the navigation bar to distin
 Using bootstrap allowed for a site that is responsive with the need for too many media queries. The media queries added helped impletment a page that is fully responsive according to modern standards.
 
 This has been a very valuable learning experience as i used Dev Tools in order to indentify and bugs revolving in the sites responsiveness. I have a much greater understanding in Bootstrap and how to adapt it using Dev Tools which will help me be better in future projects. 
+
+## Deployment 
+This GitHub project was created using the Code Insititue Template ensuring all necessary dependencies were included when opening within the designated workspace on VSCode.
+
+I set up my repo using this method and template:
+
+⦁	Login to my GitHub profile.
+⦁	Navigate to the Code Institute Full Template
+⦁	Clicked the dropdown for 'Use this template' and selected  "Create a new repository"
+⦁	Input the name for your repo and clicked 'Create repository from template'
+⦁	Navigated to the new repo and click the green 'Open' button with the Gitpod logo
+⦁	I was now able to work on my repository within the VSCode workspace linked to my GitHub
+
+Once the project repo is created, an early deployment for the live project should performed to allow for continous testing as the site could look different on the live site compared to the workspace browser.
+
+Additional information on the delpoyemnt process can be found in the GitHub Docs.
