@@ -93,6 +93,10 @@ p span {
 }
 
 /*form styles*/
+#form {
+   padding-left: 10%;
+   padding-right: 10%;
+}
 .form-control {
    border: solid 1px #000000;
 }
