@@ -24,6 +24,7 @@ nav {
 h1, h2, h3 {
     font-family: var(--secondary-font);
 }
+/*carousel styling*/
 #affirmation-carousel {
    position: relative;
    padding-inline-start: 20%;
@@ -33,12 +34,21 @@ h1, h2, h3 {
 /*carousel border*/
 .number1 {
    border: solid 3px #f7c815;
+   background-color: rgba(247, 200, 21, 0.5);
 }
 .number2 {
    border: solid 3px var(--secondary-color);
+   background-color: rgba(248, 131, 121, 0.5);
+
 }
 .number3 {
    border: solid 3px var(--primary-color);
+   background-color: rgba(173, 205, 203, 0.5);
+}
+
+/*carousel font*/
+.carousel-item {
+   font-size: 150%;
 }
 
 /*hero*/
@@ -179,6 +189,7 @@ p span {
    @media screen and (min-width: 1200px) {
       /*makes the home page cards the same height*/
       .card-body {min-height: 200px;}
+      /*move carousel to middle of the page on bigger screens*/
       .carousel-block {
          flex: 0 0 auto;
          width: 118%;
