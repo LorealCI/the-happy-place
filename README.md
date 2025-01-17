@@ -83,5 +83,21 @@ After seeking out many options of different style images i opted for clear, stan
 ⦁	sad teen
 ⦁	parent hugging teen
 
-Before implementing the images into the project i used short pixel (link site in words) to convert my images to a webp format to follow the current standards.
+Before implementing the images into the project i used shortpixel.com to convert my images to a webp format to follow the current standards.
 <em>Images found on pexels</em>
+
+## Features
+**general features** 
+In order to fulfil the criteria the page consists of various amount of information in sections, with links, resources and other elements to contribute to a positive user experience.
+Upon coding the site and implementing bootstrap the features and design changed a little bit from the original wireframe idea. I added title cover text on the hero image. This was done to make the flow of the page better and allow for more space for other content.
+
+**Naviagtion and Hero Section**
+I impletmented the navigation bar using bootstrap -  this allows for easy navigation around the site for best user experience. I added styling to the navigation bar  such as colours that show when a page is hovered over which aids in a good user experince as they can see clearly what they are clicking.
+
+I chose to use a big bold image of happy young people for the hero section on the home page. This imagery links to what the site is about.
+
+**Bootstrap Cards**
+I opted to use bootstrap cards for links to the main content of the page, this allowed for a clean, clear and organised layout of the page. Within these cards i also provided links to additional information.
+
+**Footer**
+For the footer i used the same background colour as the navigation bar to distinguish it apart from the body of the page while also keeping the flow the same. I added a contact information section and social media links -  this helps provide a better user experince as it is simple and easy to understand.
