@@ -29,6 +29,7 @@ h1, h2, h3 {
    padding-inline-start: 20%;
    padding-inline-end: 20%;
 }
+
 /*carousel border*/
 .number1 {
    border: solid 3px #f7c815;
@@ -178,4 +179,8 @@ p span {
    @media screen and (min-width: 1200px) {
       /*makes the home page cards the same height*/
       .card-body {min-height: 200px;}
+      .carousel-block {
+         flex: 0 0 auto;
+         width: 118%;
+      }
      }
