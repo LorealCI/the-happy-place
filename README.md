@@ -101,3 +101,8 @@ I opted to use bootstrap cards for links to the main content of the page, this a
 
 **Footer**
 For the footer i used the same background colour as the navigation bar to distinguish it apart from the body of the page while also keeping the flow the same. I added a contact information section and social media links -  this helps provide a better user experince as it is simple and easy to understand.
+
+## Responsive Design
+Using bootstrap allowed for a site that is responsive with the need for too many media queries. The media queries added helped impletment a page that is fully responsive according to modern standards.
+
+This has been a very valuable learning experience as i used Dev Tools in order to indentify and bugs revolving in the sites responsiveness. I have a much greater understanding in Bootstrap and how to adapt it using Dev Tools which will help me be better in future projects. 
