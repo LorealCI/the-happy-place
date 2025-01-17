@@ -122,3 +122,16 @@ I set up my repo using this method and template:
 Once the project repo is created, an early deployment for the live project should performed to allow for continous testing as the site could look different on the live site compared to the workspace browser.
 
 Additional information on the delpoyemnt process can be found in the GitHub Docs.
+
+## Testing
+Once my project was complete I tested and validated the website using the  HTML Validation site, the CSS Autoprefixer site and the CSS Validation site. I also used Lighthouse to check for performace, accessibility and best practices. 
+These found a few bugs that i corrected and then retested to ensure the site allowed for a good user experience.
+
+## Credits 
+subheading: Code: Project and primary learning supplied by Code Institute
+Supplemental learning resources directly used / referenced within the project:
+
+Bootstrap Docs
+CSS Variables - The var() function
+Co-pilot to generate user stories, no code was used
+
