@@ -68,6 +68,7 @@ Font was also a big consideration to ensure site users have a positive user expe
 <strong>Nunito</strong> was used within logos, headings and sub-headings - this complements the primary font used.
 
 ## Wireframes
+![alt text](image.png)
 This low fideltiy wireframe was made using balsamiq to define the layouts key features to design a great user experience. Using  Bootstrap and available components allows for the construction of a page that feels familiar for easy navigation whilst also allowing for well structured content and a responsive design.
 
 ## Imagery
