@@ -20,6 +20,9 @@ nav {
     background-color: var(--primary-color);
 }
 
+.nav-link:hover {
+   color: var(--secondary-color);
+}
 /*header*/
 h1, h2, h3 {
     font-family: var(--secondary-font);
