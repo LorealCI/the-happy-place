@@ -5,11 +5,13 @@
 /*CSS Variables*/
 :root {
     --primary-color: #adcdcb; /*lightblue*/
+    --secondary-color: #f88379; /*coral pink*/
     --primary-font: 'dosis', sans-serif; 
     --secondary-font: 'nunito', sans-serif;
 }
 
-/*global styles */
+/*section style*/
+/*stops the navbar from overlapping*/
 .section {
     padding-top: 4rem;
 }
@@ -27,14 +29,15 @@ h1, h2, h3 {
    padding-inline-start: 20%;
    padding-inline-end: 20%;
 }
+/*carousel border*/
 .number1 {
    border: solid 3px #f7c815;
 }
 .number2 {
-   border: solid 3px #f88379;
+   border: solid 3px var(--secondary-color);
 }
 .number3 {
-   border: solid 3px #adcdcb;
+   border: solid 3px var(--primary-color);
 }
 
 /*hero*/
@@ -61,12 +64,12 @@ h1, h2, h3 {
 /*main*/
 body {
     font-family: var(--primary-font);
-    background-color: #f7e7ec;
+    background-color: rgba(225, 253, 208, 0.5); /*cream background colour*/
 }
-
+/*about us*/
 #who-we-are {
    background-color: rgba(202, 50, 37, 0.5);
-   border: solid 2px #f88379;
+   border: solid 2px var(--secondary-color);
 }
 
 #how-we-help {
@@ -76,21 +79,32 @@ body {
 }
 
 p span {
-   color: #f88379;
+   color: var(--secondary-color);
 }
+/*card styles*/
+.card {
+   margin-bottom: 1.5rem;
+}
+
+#home-cards .card-img-top {
+   width: 100%;
+   height: 30vw;
+   object-fit: cover;
+}
+
 /*form styles*/
 .form-control {
    border: solid 1px #000000;
 }
 /*Button styles*/
 .btn-custom-outline {
-    color:#f88379;
-    border: solid 3px #f88379 /*coral pink*/
+    color: var(--secondary-color);
+    border: solid 3px var(--secondary-color); /*coral pink*/
 }
 
 .btn-custom-outline:hover {
    color:#adcdcb;
-   border: solid 3px #adcdcb /*coral pink*/
+   border: solid 3px var(--primary-color);
 }
 
 .contact-btn {
@@ -98,7 +112,7 @@ p span {
 }
 
 .contact-btn:hover {
-   background-color:#f88379;
+   background-color: var(--secondary-color);
 }
 /*footer*/
  #contact {
@@ -143,3 +157,18 @@ p span {
  #contact .tiktok:hover {
     color: #363737;
  }
+
+ /*medium devices tablets 768px and up*/
+ @media screen and (min-width: 768px) {
+  .card-body {min-height: 160px;}
+ }
+
+  /*large devices small laptops 992px and up*/
+  @media screen and (min-width: 992px) {
+   .card-body {min-height: 156px;}
+  }
+
+   /*exrta-large devices desktops 1200px and up*/
+   @media screen and (min-width: 1200px) {
+      .card-body {min-height: 200px;}
+     }
