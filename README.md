@@ -49,3 +49,16 @@ AS A young person I WANT TO have a contact form SO I CAN reach out to mental hea
 
 AS A parent/guardian I WANT TO navigate the website quickly and without confusion
 SO I CAN efficiently find the information I need without feeling overwhelmed.
+
+## Colours
+I spent some time refining my colour palette as its the one of the key components in a design process. After much research I wanted to choose brighter softer colours that captivates and welcomes my users. I chose light blue as my main colour as I closely relate that to a 'calming' colour. 
+
+I searched for colour palettes with specific colours in mind - blue, yellow and pink -  which led me to www.colorpalettes.net. After i found the colour palette i thought was best i checked it against the colour contrast checker.
+
+Main Palette:
+⦁	Jet Stream #ADCDCB --light blue
+⦁	Coral Pink #F88379 --pink
+⦁	Wisteria Yellow #F7C815 --yellow
+⦁	White #FFFFFF
+⦁	Black #000000
+
