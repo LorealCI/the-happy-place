@@ -66,3 +66,6 @@ Main Palette:
 Font was also a big consideration to ensure site users have a positive user experience while visiting the page. I used two sans-serif fonts Nunito and Dosis selected from google fonts(add link to site) using the direct import code at the top of my style.css file.
 <strong>Dosis</strong> is used to primary font ensuring readability ease which adds to a postive user experience.
 <strong>Nunito</strong> was used within logos, headings and sub-headings - this complements the primary font used.
+
+## Wireframes
+This low fideltiy wireframe was made using balsamiq to define the layouts key features to design a great user experience. Using  Bootstrap and available components allows for the construction of a page that feels familiar for easy navigation whilst also allowing for well structured content and a responsive design.
