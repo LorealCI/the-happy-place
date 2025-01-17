@@ -69,3 +69,19 @@ Font was also a big consideration to ensure site users have a positive user expe
 
 ## Wireframes
 This low fideltiy wireframe was made using balsamiq to define the layouts key features to design a great user experience. Using  Bootstrap and available components allows for the construction of a page that feels familiar for easy navigation whilst also allowing for well structured content and a responsive design.
+
+## Imagery
+My image selection aided in the influence of the overall design in my website. With my site user in mind, i sought out images that would:
+⦁	promote inclusivity 
+⦁	be easily identifiable to the site users
+⦁	relevance in my website
+
+After seeking out many options of different style images i opted for clear, standout images that complement my site. Including images for young people of different backgrounds and ages. I used many different search terms to find the images i deemed appropriate these were:
+⦁	mental health
+⦁	teens mental health
+⦁	laughing group of teens
+⦁	sad teen
+⦁	parent hugging teen
+
+Before implementing the images into the project i used short pixel (link site in words) to convert my images to a webp format to follow the current standards.
+<em>Images found on pexels</em>
