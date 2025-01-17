@@ -91,7 +91,6 @@ body {
 #how-we-help {
    background-color: rgba(240, 225, 0, 0.5);
    border: solid 2px #f7c815;
-   border-radius: 5;
 }
 
 p span {
@@ -191,7 +190,7 @@ p span {
    .card-body {min-height: 156px;}
   }
 
-   /*exrta-large devices desktops 1200px and up*/
+   /*extra-large devices desktops 1200px and up*/
    @media screen and (min-width: 1200px) {
       /*makes the home page cards the same height*/
       .card-body {min-height: 200px;}
